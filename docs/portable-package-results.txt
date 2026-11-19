@@ -1,0 +1,6 @@
+Portable ZIP extracted into a path containing a space.
+No .runtime, .build, user database, or CSV backup included.
+Used existing JDK 21 via JAVA_HOME.
+Compiling Java sources...
+PASS: 15 Java core checks
+PASS: HTTP 200 and three initial forums at port 8766 from the extracted project.

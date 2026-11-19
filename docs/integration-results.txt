@@ -1,0 +1,100 @@
+PASS: Home page and JSP render
+PASS: Content Security Policy present
+PASS: Session cookie HttpOnly and SameSite
+PASS: Seed forums exist
+PASS: Public page /about
+PASS: Public page /contact
+PASS: Public page /login
+PASS: Public page /register
+PASS: Public page /forum?id=1
+PASS: Missing forum returns 404
+PASS: Invalid forum ID returns 400
+PASS: JSP cannot be accessed directly
+PASS: Empty search works
+PASS: Invalid CSRF rejected
+PASS: Short password rejected
+PASS: Malformed email rejected
+PASS: Invalid phone rejected
+PASS: Reader registration succeeds
+PASS: Duplicate account rejected
+PASS: Wrong password rejected
+PASS: Reader sign-in succeeds
+PASS: Reader forbidden from /users
+PASS: Reader forbidden from /moderation
+PASS: Reader forbidden from /dictionary
+PASS: Reader forbidden from /audit
+PASS: Reader forbidden from /edit-forum
+PASS: Reader forbidden from /verifier
+PASS: Reader cannot call staff mutation
+PASS: Empty comment rejected server-side
+PASS: Overlong comment rejected
+PASS: Clean comment accepted
+PASS: Clean comment published publicly
+PASS: Plain text with markup accepted
+PASS: Stored comment markup is escaped
+PASS: Profile update succeeds
+PASS: Profile changes persisted
+PASS: Case and punctuation flag first warning
+PASS: Pending comment is hidden from public
+PASS: Pending comment hidden from another reader
+PASS: Admin sign-in succeeds
+PASS: Verifier sign-in succeeds
+PASS: Staff page /dashboard
+PASS: Staff page /moderation
+PASS: Staff page /users
+PASS: Staff page /edit-forum
+PASS: Staff page /verifier
+PASS: Staff page /dictionary
+PASS: Staff page /audit
+PASS: Staff page /profile
+PASS: Staff page /dashboard
+PASS: Staff page /moderation
+PASS: Staff page /users
+PASS: Staff page /dictionary
+PASS: Staff page /audit
+PASS: Verifier cannot create forums
+PASS: Verifier cannot create staff
+PASS: Verifier approves held comment
+PASS: Approved comment becomes public
+PASS: Already-reviewed comment cannot be changed by duplicate review
+PASS: Flagged submission 2 increments once
+PASS: Flagged submission 3 increments once
+PASS: Fourth flagged submission blocks account
+PASS: Blocked account cannot sign in
+PASS: Verifier restores blocked reader
+PASS: Restored reader can sign in
+PASS: Restore resets strikes to zero
+PASS: Verifier rejects held comment
+PASS: Rejected comment stays private
+PASS: Admin creates forum type
+PASS: Admin creates forum with PNG upload
+PASS: Uploaded image is served as PNG
+PASS: Admin edits forum
+PASS: Forum edit persisted
+PASS: Fake image rejected
+PASS: Oversize image rejected
+PASS: Verifier removes forum
+PASS: Removed forum hidden
+PASS: Removed forum image hidden
+PASS: Admin creates verifier
+PASS: New verifier can access moderation
+PASS: Verifier cannot block admin
+PASS: Manual block succeeds
+PASS: Existing blocked session cannot post
+PASS: Manual restore succeeds
+PASS: Verifier deactivates reader without deleting history
+PASS: Deactivated account cannot sign in
+PASS: Deactivation retains published history
+PASS: Automatic block recorded in audit log
+PASS: Review decision recorded in audit log
+PASS: Admin updates CSV from web editor
+PASS: Updated dictionary visible to verifier
+PASS: Verifier cannot update dictionary
+PASS: Malformed dictionary rejected without replacement
+PASS: Empty dictionary rejected without replacement
+PASS: Invalid save preserves existing dictionary
+PASS: Dictionary update applies to next comment without restart
+PASS: Original dictionary restored
+PASS: Sign-out invalidates staff session
+
+PASS: 98 HTTP integration checks. Demo fixture prefix: t3302099612000
